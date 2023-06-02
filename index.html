@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>canvas practice</title>
+  </head>
+  <body>
+    <main class="main">
+<div class="main__conteiner">
+  
+        <header class="header">
+          <h1 class="header__tittle">Welcome Back</h1>
+          <p class="header__text">
+            Don't have a account?
+            <a href="#" class="header__a">
+              <span class="header__a-text">Sign up</span>
+            </a>
+          </p>
+        </header>
+  
+        <form class="form">
+          <label for="email" class="form__label"> Email </label>
+            <input
+              placeholder="Enter your Email"
+              class="form__input input"
+              name="email"
+              id="email"
+              required
+              type="email"
+            />
+          <label for="password" class="form__label"> Password </label>
+            <input
+              placeholder="Enter your password"
+              class="form__input input input_last"
+              name="password"
+              id="password"
+              required
+              type="password"
+            />
+  
+          <div class="button-container">
+            <input class="form__button input" type="button" value="Log in" />
+          </div>
+        </form>
+  
+        <footer class="footer">
+          <div class="options">
+            <img src="/img/facebook.png" alt="facebook" class="options__img" />
+            <img src="/img/search.png" alt="googel" class="options__img" />
+            <img src="/img/twitter.png" alt="" class="options__img" />
+          </div>
+        </footer>
+        
+</div>
+    </main>
+
+    <script src="main.js"></script>
+  </body>
+</html>
